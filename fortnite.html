@@ -1,0 +1,55 @@
+<!-- Diseña una página web para skins de 'Fortnite'. 
+
+La página debe incluir un encabezado con el título 'Fortnite', 
+seguido de una sección principal que presente una colección de skins del juego. 
+
+Cada skin debe tener su propia tarjeta con una imagen representativa, un nombre 
+y un número identificador. Asegúrate de utilizar HTML y CSS para estructurar la página y darle estilo respectivamente. 
+La página debe ser completamente responsive para adaptarse a diferentes tamaños de pantalla.
+-->
+<!DOCTYPE html>
+
+<html lang="es">
+  <head>
+    <link rel="stylesheet" type="text/css" href="/estilos/fornite.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fortnite</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Fortnite</h1>
+    </header>
+
+    <!-- main>(div>img+(div>p))*4 -->
+    <main class="container">
+      <div class="card">
+        <img src="/imagenes/S1.png" alt="Skin1" />
+        <div>
+          <p>#1 Skin 1</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/imagenes/S2.png" alt="Skin4" />
+        <div>
+          <p>#2 Skin 2</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/imagenes/S3.png" alt="Skin3" />
+        <div>
+          <p>#3 Skin 3</p>
+        </div>
+      </div>
+
+      <div class="card">
+        <img src="/imagenes/S4.png" alt="Skin4" />
+        <div>
+          <p>#4 Skin 4</p>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

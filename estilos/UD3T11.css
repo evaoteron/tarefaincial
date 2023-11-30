@@ -1,0 +1,86 @@
+* {
+    padding: 1%;
+    border-style: solid;
+    border-width: 2px;
+} 
+
+p {
+    border-style: none;
+    color: mediumseagreen;
+    font-size: 25;
+    font-weight: bold;
+}
+
+body {
+    text-align: center;
+    width: 750px;
+    border-color: red;
+    
+}
+
+header {
+    border-color: blue;
+    display: flex;
+    height: 250px;
+}
+
+#banner {
+    width: 500px;
+    align-content: flex-start;
+    flex-direction: row;
+    border-color: lawngreen;
+}
+
+#logs {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-color: lawngreen;
+}
+
+#logo {
+    width: 250px;
+    height: 250px;
+    border-color: lawngreen;
+}
+
+#login {
+    width: 250px;
+    height: 250px;
+    border-color: lawngreen;
+}
+
+nav,footer {
+    border-color: blue;
+    height: 50px;
+}
+
+
+main {
+    display: flex;
+    border-color: blue;
+}
+
+#asideleft {
+    width: 150px;
+    border-color: lawngreen;
+}
+
+article {
+    border-color: lawngreen;
+    width: 500px;
+    height: 400px;
+}
+
+#asideright {
+    border-color: lawngreen;
+    width: 150px;
+}
+
+hr {
+    border-left: 0;
+    border-bottom: 0;
+    border-right: 0;
+    height: 1px;
+    border-color: grey;
+}
